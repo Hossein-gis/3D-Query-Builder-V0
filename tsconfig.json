@@ -25,6 +25,15 @@
     "paths": {
       "@/*": [
         "./*"
+      ],
+      "@server/*": [
+        "./app/_server/*"
+      ],
+      "@frontend/*": [
+        "./frontend/*"
+      ],
+      "@shared/*": [
+        "./shared/*"
       ]
     }
   },
