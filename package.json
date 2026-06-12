@@ -9,25 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.0.0",
-    "react": "19.0.0-rc",
-    "react-dom": "19.0.0-rc",
-    "maplibre-gl": "^4.7.1",
-    "@mapbox/mapbox-gl-draw": "^1.4.0",
+    "next": "15.2.0",
+    "react": "19.0.0-rc-02c0e824-20241028",
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
     "pg": "^8.13.1",
+    "maplibre-gl": "^5.0.0",
+    "@mapbox/mapbox-gl-draw": "^1.4.0",
     "@tanstack/react-query": "^5.59.0",
-    "zustand": "^4.5.5",
+    "zustand": "^5.0.0",
     "tailwindcss": "^4.0.0",
-    "class-variance-authority": "^0.7.1",
+    "zod": "^3.23.8",
+    "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.456.0"
+    "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "typescript": "^5.6.2",
-    "@types/node": "^22.5.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "postcss": "^8.4.47",
-    "autoprefixer": "^10.4.20"
+    "eslint": "^9",
+    "eslint-config-next": "15.2.0"
   }
 }
