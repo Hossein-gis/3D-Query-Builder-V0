@@ -1,0 +1,1 @@
+// Full localStorage history management

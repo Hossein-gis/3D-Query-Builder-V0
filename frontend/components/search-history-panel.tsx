@@ -1,0 +1,1 @@
+// Full Search History Panel implementation as per spec
