@@ -31,6 +31,26 @@ export interface CatalogDistinctResponse {
 }
 
 /* -------------------------------------------------------------------------- */
+/*  Martin reference layers (D-004)                                            */
+/* -------------------------------------------------------------------------- */
+
+export interface MartinLayer {
+  id: string // Martin source id, e.g. "public.roads"
+  schema?: string
+  table?: string
+  geometryColumn?: string
+  srid?: number
+  geometryType?: string
+  description?: string
+}
+
+export interface MartinCatalogResponse {
+  available: boolean
+  baseUrl: string
+  layers: MartinLayer[]
+}
+
+/* -------------------------------------------------------------------------- */
 /*  Query building                                                             */
 /* -------------------------------------------------------------------------- */
 
